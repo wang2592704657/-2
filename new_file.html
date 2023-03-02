@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>登录</title>
+  <style>
+  body{
+   background: url(./1.jpg);   //背景图片
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   -webkit-background-size: 100% 100%;
+  }
+  #formbox{
+   background: #8b785645;    
+   width: 45%;
+   margin: 0 auto;
+   padding: 40px 50px;
+   box-sizing: border-box;
+  }
+  #box{
+   margin:0;
+  }
+  h1{
+   font-size: 40px;
+   font-weight: normal;
+   text-align: center;
+   padding-bottom: 60px;
+   color: white;
+  }
+  div#box input[type="text"],div#box input[type="password"] {
+   padding: 10px;
+   width: 100%;
+   border: 1px solid #8f5f3ab3; 
+   color: white;
+   background-color: #c7793d80;
+   box-sizing: border-box;
+   font-size: 20px;
+  }
+  
+  div#box input[type="submit"]{
+   width: 100%;
+   padding: 10px;
+   margin-top: 70px;
+   background-color: #c7793dd6;
+   border: none;
+   color: white;
+   font-size: 20px;
+  
+  }
+  div#box input[type="submit"]:hover{
+   background-color: #d1ae17bf;
+  
+  }
+  a{
+   text-decoration: none;
+   color:white;
+  }
+  </style>
+ </head>
+ <body>
+ 
+  <h1>< a href=" ">订餐系统</ a></h1>
+  <div id="formbox">
+   <form name="form" action="1.html" onsubmit="return check()">
+   <div name="box" id="box">
+     <p style="color: white;">用户名：</p >
+     <input  type="text" name="username"/> 
+ 
+     <p style="color: white;">密码：</p >
+     <input type="password" name="password" />           
+    <div>
+    <input type="submit" value="登录"/>      
+    </div>
+   </div>
+   </form>
+ 
+  </div>
+  
+ 
+ </body>
+</html>
